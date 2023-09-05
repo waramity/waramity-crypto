@@ -23,6 +23,6 @@ def before_request():
 
 # Multiligual End
 
-@crypto.route('/crypto')
+@crypto.route('/')
 def index():
     return render_template('crypto/index.html', title=_('waramity portfolio'))
